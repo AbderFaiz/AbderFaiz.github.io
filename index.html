@@ -1,48 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abderrahmane Faiz</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link href="style.css" type="text/css" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" type="module"></script>
+  <script defer="" src="script.js"></script>
 </head>
+
 <body>
   <header>
     <h1>Abderrahmane Faiz</h1>
-    <p>Software Engineer · Language Enthusiast · Maker</p>
+    <p>Software Engineer · Problem Solver · Creator</p>
+    <p>
+      <a href="https://www.linkedin.com/in/abd-faiz/" style="color:inherit;text-decoration: none;">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </p>
+
   </header>
 
   <div class="section">
     <h2>About Me</h2>
     <p>
-      I'm a software engineer with a strong foundation in formal methods, software verification, and static analysis.
-      I work mainly with C/C++, Python, OCaml, and scripting tools to build reliable software and automation.
-      I'm also passionate about languages, culture, and philosophy, and I enjoy exploring new ideas and perspectives.
+      I'm a software engineer with a strong foundation in formal methods, software verification, and static analysis. I
+      work at <a href="https://www.randstaddigital.fr/">Randstad Digital France</a> as a subcontractor for <a
+        href="https://www.airbus.com/">Airbus</a> Commercial Aircraft in the Avionics Software Departement since 2021.
     </p>
+    <p>
+      At my job, I'm responsible of the development and maintenance of the avionics software production system for
+      on-board and ground avionics products and components, in an environment with industrial and certification
+      constraints (DO178, DAL A to D software, DO330) that are used in critical on-board products (e.g. flight controls,
+      flight alerting, communication, maintenance equipment) for all Airbus aircrafts
+    </p>
+    <p>
+      I work mainly with C/C++, Python, OCaml, and scripting tools to build reliable software and automation.
+    </p>
+    <p>
+      I love creating and building things. I’ve started a blog and a podcast in the past, 
+      and I also enjoy drawing, I keep a travel journal where I sketch and capture moments from my trips.
+      I'm also passionate about languages, culture, philosophy, and I enjoy exploring new ideas and perspectives.
+    </p>
+
+    <div class="grid grid--aboutme">
+      <div class="Interests">
+        <h3>Interests</h3>
+        <ul>
+          <li>Functional programming</li>
+          <li>Static Analysis</li>
+          <li>Formal Methods</li>
+          <li>Logic & Algorithmic Puzzles</li>
+        </ul>
+      </div>
+      <div class="Education">
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <ion-icon name="school-outline"></ion-icon>
+            <strong>Bordeaux INP – Enseirb-Matmeca</strong>: Engineering Degree in Computer Science (2018–2021)
+          </li>
+          <li>
+            <ion-icon name="school-outline"></ion-icon>
+            <strong>University of Bordeaux</strong>: Master’s Degree in Software Verification (2020–2021)
+          </li>
+          <li>
+            <ion-icon name="school-outline"></ion-icon>
+            <strong>CPGE MPSI–MP</strong>: Classes Préparatoires aux Grandes Écoles – Mathematics & Physics (2016–2018)
+          </li>
+        </ul>
+        
+      </div>
+
+    </div>
   </div>
 
   <div class="section">
     <h2>Projects</h2>
 
     <div class="project">
+      <h3>🎄 Advent of Code 2024</h3>
+      <p>
+        This project contains my daily solutions written in OCaml of the famous <a href="https://adventofcode.com/">Advent of code</a> 2024 problems, with each day's puzzle separated into two parts and organized in a clean, modular structure.
+        <br />
+        <a href="https://github.com/AbdoFizzy/advent_of_code_2024" target="_blank">Visit my solutions</a>
+      </p>
+    </div>
+
+    <div class="project">
       <h3>🇮🇹 Dani Italian</h3>
       <p>
-        A learning platform for Italian language and culture, with live group classes,
-        and curated film selections.
-        <br/>
+        The official website of an Italian school offering courses and cultural immersion through its cinema and book clubs.
+        <br />
         <a href="https://danitalian.com" target="_blank">Visit Dani Italian</a>
       </p>
     </div>
 
-
-    <div class="project">
-      <h3>📐 Static Analysis & Toolchain Work</h3>
-      <p>
-        Work on qualified toolchains for avionics systems (DO-178C / DO-330), using Astrée for static analysis.
-        Experience with Jenkins, Docker, Gradle, Git, and proof-based verification methods.
-      </p>
-    </div>
+  </div>
 
 
   <div class="section">
@@ -57,7 +113,8 @@
   </div>
 
   <div class="footer">
-    © 2025 Abderrahmane Faiz. All rights reserved.
+    © <span class="year"></span> Abderrahmane Faiz. All rights reserved.
   </div>
 </body>
+
 </html>

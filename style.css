@@ -48,4 +48,21 @@
     a:hover {
       text-decoration: underline;
     }
+
+    .grid {
+      display: grid;
+      gap: 3rem;
+    }
+    
+    .grid--2-cols {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid--aboutme {
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .Education ul {
+      list-style-type: none;
+    }
   
