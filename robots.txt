@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abderfaiz.github.io/sitemap.xml
