@@ -1,0 +1,11 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        // Run whenever any file is saved
+        "match": ".*",
+        "cmd": "sed -i 's|<lastmod>.*</lastmod>|<lastmod>'\"$(date +\"%Y-%m-%d\")\"'</lastmod>|g' sitemap.xml"
+      }
+    ]
+  }
+}
